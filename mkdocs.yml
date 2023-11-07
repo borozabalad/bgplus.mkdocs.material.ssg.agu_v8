@@ -1,0 +1,66 @@
+site_name: AGu - Test 20231103
+theme:
+  logo: assets/boro_logo_blue_on_white_40x55.png
+  homepage: http://127.0.0.1:8000/documentation/index/
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.linkç
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+markdown_extensions:
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: 'index.md'
+  - 'Test 20231103':
+      - 'Test 20231103 - page calling excerpt with excerpt': 'documentation/Test-20231103---page-calling-excerpt-with-excerpt-1_3592290628.md'
+      - 'Test 20231103 - normal page': 'documentation/Test-20231103---normal-page_3592683533.md'
+      - 'Test 20231103 - mathematical characters': 'documentation/Test-20231103---mathematical-characters_3592257815.md'
+      - 'Test 20231103 - 3 rows from database as table': 'documentation/Test-20231103---3-rows-from-database-as-table_3592257840.md'
+      - 'Test 20231103 - Excerpt storage':
+          - 'Test 20231103 - Excerpt storage': 'documentation/Test-20231103---Excerpt-storage_3592290649.md'
+          - 'Dummy excerpt 1': 'documentation/Dummy-excerpt-1_3592683574.md'
+          - 'Dummy excerpt 2': 'documentation/Dummy-excerpt-2_3592781866.md'
+          - 'Test 20231103 - excerpt with excerpt 1': 'documentation/Test-20231103---excerpt-with-excerpt-1_3592781825.md'
+
+copyright: |
+  &copy; 2023 <a href="https://borosolutions.net"  target="_blank" rel="noopener">BORO SOLUTIONS LTDA.</a>
