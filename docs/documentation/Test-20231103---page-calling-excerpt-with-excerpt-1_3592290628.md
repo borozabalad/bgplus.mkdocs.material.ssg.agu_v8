@@ -3,9 +3,6 @@ title: "Anne Guinard : Test 20231103 - page calling excerpt with excerpt
   1"
 ---
 
-1.  [Anne Guinard](index)
-2.  [Test 20231103](Test-20231103_3592290703)
-
 # <span id="title-text"> Anne Guinard : Test 20231103 - page calling excerpt with excerpt 1 </span>
 
 This page calls an excerpt that includes excerpts. Enjoy!

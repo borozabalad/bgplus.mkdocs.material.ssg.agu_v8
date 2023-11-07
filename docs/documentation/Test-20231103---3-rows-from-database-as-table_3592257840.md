@@ -2,9 +2,6 @@
 title: "Anne Guinard : Test 20231103 - 3 rows from database as table"
 ---
 
-1.  [Anne Guinard](index)
-2.  [Test 20231103](Test-20231103_3592290703)
-
 # <span id="title-text"> Anne Guinard : Test 20231103 - 3 rows from database as table </span>
 
 <table border="1" class="confluenceTable" data-table-width="1626" data-layout="default"

@@ -2,10 +2,6 @@
 title: "Anne Guinard : Test 20231103 - mathematical characters"
 ---
 
-1.  [Anne Guinard](index)
-2.  [Test 20231103](Test-20231103_3592290703)
-
-
 # <span id="title-text"> Anne Guinard : Test 20231103 - mathematical characters </span>
 
 <span colorid="5jw5omej29">A graph
